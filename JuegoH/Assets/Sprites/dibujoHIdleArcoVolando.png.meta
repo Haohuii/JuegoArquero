@@ -1,0 +1,628 @@
+fileFormatVersion: 2
+guid: a5fbb3c066081c541bd9249ddbdc1edc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5382997393138322416
+    second: dibujoHIdleArcoVolando_0
+  - first:
+      213: -5180051753327344711
+    second: dibujoHIdleArcoVolando_1
+  - first:
+      213: 7200710308962792853
+    second: dibujoHIdleArcoVolando_2
+  - first:
+      213: 1790684874852394372
+    second: dibujoHIdleArcoVolando_3
+  - first:
+      213: 4491147663150729001
+    second: dibujoHIdleArcoVolando_4
+  - first:
+      213: 3186047406959543020
+    second: dibujoHIdleArcoVolando_5
+  - first:
+      213: 2458714197580938739
+    second: dibujoHIdleArcoVolando_6
+  - first:
+      213: -5457758525460784988
+    second: dibujoHIdleArcoVolando_7
+  - first:
+      213: -6529667432690090884
+    second: dibujoHIdleArcoVolando_8
+  - first:
+      213: -1833201724995016536
+    second: dibujoHIdleArcoVolando_9
+  - first:
+      213: 1729103054499544605
+    second: dibujoHIdleArcoVolando_10
+  - first:
+      213: 1757101555097335019
+    second: dibujoHIdleArcoVolando_11
+  - first:
+      213: 1819649148489670562
+    second: dibujoHIdleArcoVolando_12
+  - first:
+      213: 4629077899263137070
+    second: dibujoHIdleArcoVolando_13
+  - first:
+      213: -1643806221670106025
+    second: dibujoHIdleArcoVolando_14
+  - first:
+      213: -3722837657662169280
+    second: dibujoHIdleArcoVolando_15
+  - first:
+      213: -7059725141758214021
+    second: dibujoHIdleArcoVolando_16
+  - first:
+      213: -2172483385002121156
+    second: dibujoHIdleArcoVolando_17
+  - first:
+      213: 4854225642023742369
+    second: dibujoHIdleArcoVolando_18
+  - first:
+      213: 2404502501944579944
+    second: dibujoHIdleArcoVolando_19
+  - first:
+      213: -4091524215374013828
+    second: dibujoHIdleArcoVolando_20
+  - first:
+      213: 9146614552624526367
+    second: dibujoHIdleArcoVolando_21
+  - first:
+      213: -584444590077753697
+    second: dibujoHIdleArcoVolando_22
+  - first:
+      213: 1305137095170875031
+    second: dibujoHIdleArcoVolando_23
+  - first:
+      213: -2412124521821223714
+    second: dibujoHIdleArcoVolando_24
+  - first:
+      213: 3295527613223121727
+    second: dibujoHIdleArcoVolando_25
+  - first:
+      213: 6663521636551459925
+    second: dibujoHIdleArcoVolando_26
+  - first:
+      213: -8813216208931803828
+    second: dibujoHIdleArcoVolando_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_0
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 523
+        width: 136
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb0dd4db9f34ba40800000000000000
+      internalID: 5382997393138322416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_1
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 525
+        width: 144
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3c8cc1062cc18b0800000000000000
+      internalID: -5180051753327344711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 509
+        width: 153
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2c0697c3d173c20800000000000000
+      internalID: 3186047406959543020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_6
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 517
+        width: 142
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd750f298b1f1220800000000000000
+      internalID: 2458714197580938739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_7
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 520
+        width: 132
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8dc0c99852244b0800000000000000
+      internalID: -5457758525460784988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_8
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 523
+        width: 137
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7cf11dc016f165a0800000000000000
+      internalID: -6529667432690090884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_9
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 518
+        width: 179
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8e90c6eb82f86e0800000000000000
+      internalID: -1833201724995016536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_10
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 523
+        width: 163
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1efc7f11120ff710800000000000000
+      internalID: 1729103054499544605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_11
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 521
+        width: 161
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4fcd90e8a726810800000000000000
+      internalID: 1757101555097335019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 210
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abea6ca08cad5340800000000000000
+      internalID: 4854225642023742369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_19
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 207
+        width: 201
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867d1f139428e5120800000000000000
+      internalID: 2404502501944579944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_20
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 205
+        width: 188
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a19b8676cf737c0800000000000000
+      internalID: -4091524215374013828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_22
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 208
+        width: 160
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f964489edb2a3e7f0800000000000000
+      internalID: -584444590077753697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_23
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 126
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e58dce547cc1210800000000000000
+      internalID: 1305137095170875031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_24
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 194
+        width: 189
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed446d20789668ed0800000000000000
+      internalID: -2412124521821223714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_25
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 189
+        width: 177
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33b7ad57e01cbd20800000000000000
+      internalID: 3295527613223121727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_26
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 193
+        width: 171
+        height: 317
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55487c3af95997c50800000000000000
+      internalID: 6663521636551459925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dibujoHIdleArcoVolando_27
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 192
+        width: 179
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4da7e96d8a21b580800000000000000
+      internalID: -8813216208931803828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ab12946b2919a884b9ce29932d33a15f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dibujoHIdleArcoVolando_0: 5382997393138322416
+      dibujoHIdleArcoVolando_1: -5180051753327344711
+      dibujoHIdleArcoVolando_10: 1729103054499544605
+      dibujoHIdleArcoVolando_11: 1757101555097335019
+      dibujoHIdleArcoVolando_18: 4854225642023742369
+      dibujoHIdleArcoVolando_19: 2404502501944579944
+      dibujoHIdleArcoVolando_20: -4091524215374013828
+      dibujoHIdleArcoVolando_22: -584444590077753697
+      dibujoHIdleArcoVolando_23: 1305137095170875031
+      dibujoHIdleArcoVolando_24: -2412124521821223714
+      dibujoHIdleArcoVolando_25: 3295527613223121727
+      dibujoHIdleArcoVolando_26: 6663521636551459925
+      dibujoHIdleArcoVolando_27: -8813216208931803828
+      dibujoHIdleArcoVolando_5: 3186047406959543020
+      dibujoHIdleArcoVolando_6: 2458714197580938739
+      dibujoHIdleArcoVolando_7: -5457758525460784988
+      dibujoHIdleArcoVolando_8: -6529667432690090884
+      dibujoHIdleArcoVolando_9: -1833201724995016536
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,6 +7,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     [SerializeField] private float velocidad;
     [SerializeField] private float dano;
     private SpriteRenderer spriteRenderer;
+    [SerializeField] private ParticleSystem particulas;
+
 
     private int direccion = 1;
 
@@ -22,10 +24,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (dir == -1)
         {
             gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            particulas.Play();
         }
         else
         {
-             gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            particulas.Play();
+
         }
     }
 

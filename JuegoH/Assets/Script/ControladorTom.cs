@@ -27,15 +27,14 @@ public class ControladorTom : MonoBehaviour
         {
             //Aplicar fuerza a la izquierda
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-500f * Time.deltaTime, 0));
-            
-
             //Activar la animacion de movimientos
             gameObject.GetComponent<Animator>().SetBool("moving", true);
             gameObject.GetComponent<Animator>().SetBool("arcoV", false);
             gameObject.GetComponent<Animator>().SetBool("atacando", false);
 
             //Voltear el sprite para mirar a la izquierda
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            
+            transform.localScale = new Vector3(-1, 1, 1);
             mirarIzq = true;
             // Reseteamos el tiempo de inactividad
             idleTime = 0f;
@@ -46,14 +45,14 @@ public class ControladorTom : MonoBehaviour
         {
             //Aplicar fuerza a la derecha
             gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(500f * Time.deltaTime, 0));
-
             //Activar la animacion de movimiento
             gameObject.GetComponent<Animator>().SetBool("moving", true);
             gameObject.GetComponent<Animator>().SetBool("arcoV", false);
             gameObject.GetComponent<Animator>().SetBool("atacando", false);
 
             //Voltear el sprite para mirar a la izquierda
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            
+            transform.localScale = new Vector3(1, 1, 1);
             mirarIzq = false;
 
             // Reseteamos el tiempo de inactividad
@@ -120,7 +119,6 @@ public class ControladorTom : MonoBehaviour
             idleTime = 0f;
         }
 
-      
 
     }
 

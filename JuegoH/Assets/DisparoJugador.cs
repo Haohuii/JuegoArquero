@@ -35,10 +35,12 @@ public class DisparoJugador : MonoBehaviour
         if (controladorTom.mirarIzq)
         {
             flechaScript.SetDireccion(-1);
+
         }
         else
         {
             flechaScript.SetDireccion(1);
+
         }
     }
 }

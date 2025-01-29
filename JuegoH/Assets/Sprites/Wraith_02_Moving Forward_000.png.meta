@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 30b4a4d34c07ae74c967b237e3ad1a3a
+guid: 6c362f100bfcb8b4194668e5a3cdde0a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5169600793619835455
-    second: Wraith_01_Moving Forward_009_0
+      213: -8588145238165191250
+    second: Wraith_02_Moving Forward_000_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wraith_01_Moving Forward_009_0
+      name: Wraith_02_Moving Forward_000_0
       rect:
         serializedVersion: 2
-        x: 145
-        y: 101
-        width: 199
-        height: 277
+        x: 154
+        y: 99
+        width: 215
+        height: 284
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c556b9c773e148b0800000000000000
-      internalID: -5169600793619835455
+      spriteID: ea583b76867c0d880800000000000000
+      internalID: -8588145238165191250
       vertices: []
       indices: 
       edges: []

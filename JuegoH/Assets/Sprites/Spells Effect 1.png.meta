@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dc19cdf4231893442b438f29dfd6739e
+guid: d9be78c5a0f666546a20de8c8a30c5ff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -390097374625992787
-    second: Wraith_01_Moving Forward_010_0
+      213: 338573716054325776
+    second: Spells Effect 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wraith_01_Moving Forward_010_0
+      name: Spells Effect 1_0
       rect:
         serializedVersion: 2
-        x: 148
-        y: 100
-        width: 198
-        height: 279
+        x: 1
+        y: 1
+        width: 62
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dafea9d2188169af0800000000000000
-      internalID: -390097374625992787
+      spriteID: 01ab3bb300bd2b400800000000000000
+      internalID: 338573716054325776
       vertices: []
       indices: 
       edges: []

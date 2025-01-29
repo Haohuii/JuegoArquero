@@ -7,6 +7,7 @@ public class EnemigoMover : MonoBehaviour
     public float speed = 2.0f;
     private Rigidbody2D rb;
     private Vector2 movement;
+    public GameObject target;
 
     private float randomDirection;
     private float changeDirectionTime = 1f;  // Tiempo en segundos entre cambios de dirección aleatorios
@@ -26,6 +27,7 @@ public class EnemigoMover : MonoBehaviour
          // Limitar la posición del enemigo a los límites en el eje X
         minX = screenMin.x + 0.5f; // Ajusta esto según el tamaño de tu sprite
         maxX = screenMax.x - 0.5f; // Ajusta esto según el tamaño de tu sprite
+        
     }
 
     // Update is called once per frame
@@ -81,12 +83,12 @@ public class EnemigoMover : MonoBehaviour
         if (movement.x > 0)
         {
             // Si se mueve hacia la derecha, asegurarse que el enemigo mire a la derecha
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            transform.localScale = new Vector3(0.6f, 0.6f, 1f);
         }
         else if (movement.x < 0)
         {
             // Si se mueve hacia la izquierda, asegurarse que el enemigo mire a la izquierda
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            transform.localScale = new Vector3(-0.6f, 0.6f, 0.6f);
         }
     }
 

@@ -150,6 +150,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1262782014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &434609614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 434609615}
+  m_Layer: 0
+  m_Name: ControladorDisparo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &434609615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434609614}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.28, y: -0.2, z: 0}
+  m_LocalScale: {x: 0.9688971, y: 1.1512882, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1641130381}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +433,7 @@ GameObject:
   - component: {fileID: 974759440}
   - component: {fileID: 974759439}
   - component: {fileID: 974759438}
+  - component: {fileID: 974759442}
   m_Layer: 0
   m_Name: morado
   m_TagString: enemigo
@@ -473,10 +505,11 @@ Transform:
   m_GameObject: {fileID: 974759435}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.6047, y: -2.59, z: 0}
+  m_LocalPosition: {x: 8.16, y: -2.77, z: 0}
   m_LocalScale: {x: 0.6139943, y: 0.6472769, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1375092035}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &974759438
@@ -582,6 +615,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.19, y: 2.91}
   m_EdgeRadius: 0
+--- !u!114 &974759442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974759435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075135e2d3b156146a4455ebdccf9c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorDisparo: {fileID: 1375092035}
+  distanciaLinea: 7.68
+  capaJugador:
+    serializedVersion: 2
+    m_Bits: 64
+  jugadorEnRango: 0
+  balaEnemigo: {fileID: 4348047591413163581, guid: fc5bd52ed4079ae46938a2ab132c8996, type: 3}
+  tiempoEntreDisparos: 3
+  timepoUltimoDisparo: 0
+  timepoEsperaDisparo: 0
 --- !u!1 &1262782011
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,7 +652,8 @@ GameObject:
   - component: {fileID: 1262782016}
   - component: {fileID: 1262782015}
   - component: {fileID: 1262782018}
-  m_Layer: 0
+  - component: {fileID: 1262782019}
+  m_Layer: 6
   m_Name: arquero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +746,7 @@ Transform:
   m_GameObject: {fileID: 1262782011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.62, y: -2.6, z: 0}
+  m_LocalPosition: {x: -3.64, y: -2.6, z: 0}
   m_LocalScale: {x: 1.0364585, y: 0.99252903, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -798,6 +854,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controladorDisparo: {fileID: 250422288}
   bala: {fileID: 4632331058821659093, guid: d2d3a527b9a0fb14a8a19a38bdb03409, type: 3}
+--- !u!114 &1262782019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262782011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da32ae573f4d39f4fab3d1e450099f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidadDeVida: 5
+--- !u!1 &1375092034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1375092035}
+  m_Layer: 0
+  m_Name: ControladorDisparo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1375092035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375092034}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.17, y: -0.21, z: 0}
+  m_LocalScale: {x: 0.97965074, y: 1.060041, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 974759437}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1417891348
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,6 +912,7 @@ GameObject:
   - component: {fileID: 1417891351}
   - component: {fileID: 1417891350}
   - component: {fileID: 1417891349}
+  - component: {fileID: 1417891355}
   m_Layer: 0
   m_Name: azul
   m_TagString: enemigo
@@ -986,12 +1087,35 @@ Transform:
   m_GameObject: {fileID: 1417891348}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5049, y: -2.6598, z: 0}
+  m_LocalPosition: {x: -10.94, y: -2.74, z: 0}
   m_LocalScale: {x: 0.6015034, y: 0.6861413, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1813719422}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1417891355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417891348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075135e2d3b156146a4455ebdccf9c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorDisparo: {fileID: 1813719422}
+  distanciaLinea: 7.68
+  capaJugador:
+    serializedVersion: 2
+    m_Bits: 64
+  jugadorEnRango: 0
+  balaEnemigo: {fileID: 8496694266758740145, guid: 2a3c6969821a26e41afa84e864b1f07c, type: 3}
+  tiempoEntreDisparos: 3
+  timepoUltimoDisparo: 0
+  timepoEsperaDisparo: 0
 --- !u!1 &1641130379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,6 +1130,7 @@ GameObject:
   - component: {fileID: 1641130384}
   - component: {fileID: 1641130383}
   - component: {fileID: 1641130382}
+  - component: {fileID: 1641130386}
   m_Layer: 0
   m_Name: marron
   m_TagString: enemigo
@@ -1077,10 +1202,11 @@ Transform:
   m_GameObject: {fileID: 1641130379}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.99, y: -2.76, z: 0}
+  m_LocalPosition: {x: -0.45, y: -2.81, z: 0}
   m_LocalScale: {x: 0.62080896, y: 0.5959759, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 434609615}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1641130382
@@ -1186,6 +1312,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1641130386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641130379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 075135e2d3b156146a4455ebdccf9c1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controladorDisparo: {fileID: 434609615}
+  distanciaLinea: 7.68
+  capaJugador:
+    serializedVersion: 2
+    m_Bits: 64
+  jugadorEnRango: 0
+  balaEnemigo: {fileID: 3965407270252782472, guid: 5d0693d355d7d3a44b9e3744f1660421, type: 3}
+  tiempoEntreDisparos: 3
+  timepoUltimoDisparo: 0
+  timepoEsperaDisparo: 0
 --- !u!1 &1800497640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,6 +1468,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 4.5, y: 4.5}
   m_EdgeRadius: 0
+--- !u!1 &1813719421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1813719422}
+  m_Layer: 0
+  m_Name: ControladorDisparo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1813719422
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813719421}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1417891354}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1994095933
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class BalaEnemigo : MonoBehaviour
@@ -8,7 +9,7 @@ public class BalaEnemigo : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(Time.deltaTime * velocidad * Vector2.right);
+        transform.Translate(Time.deltaTime * velocidad * Vector2.left);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

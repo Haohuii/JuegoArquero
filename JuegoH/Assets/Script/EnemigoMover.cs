@@ -77,8 +77,9 @@ public class EnemigoMover : MonoBehaviour
         }
     }
      
-    void GirarEnDireccion()
+   public void GirarEnDireccion()
     {
+        
         // Girar el enemigo dependiendo de la dirección de su movimiento en el eje X
         if (movement.x > 0)
         {

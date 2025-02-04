@@ -20,7 +20,7 @@ public class EnemigoMover : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        // Obtener los límites de la pantalla en el mundo
+        // // Obtener los límites de la pantalla en el mundo
         Vector2 screenMin = Camera.main.ViewportToWorldPoint(new Vector2(0, 0));  // Esquina inferior izquierda
         Vector2 screenMax = Camera.main.ViewportToWorldPoint(new Vector2(1, 1));  // Esquina superior derecha
 
@@ -48,7 +48,7 @@ public class EnemigoMover : MonoBehaviour
 
         rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
 
-        LimitarPosicion();
+        // LimitarPosicion();
 
         GirarEnDireccion();
     }

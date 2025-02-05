@@ -26,7 +26,7 @@ public class ControladorTom : MonoBehaviour
         if (Input.GetKey("left"))
         {
             //Aplicar fuerza a la izquierda
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-500f * Time.deltaTime, 0));
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(-330f * Time.deltaTime, 0));
             //Activar la animacion de movimientos
             gameObject.GetComponent<Animator>().SetBool("moving", true);
             gameObject.GetComponent<Animator>().SetBool("arcoV", false);
@@ -44,7 +44,7 @@ public class ControladorTom : MonoBehaviour
         if (Input.GetKey("right"))
         {
             //Aplicar fuerza a la derecha
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(500f * Time.deltaTime, 0));
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(330f * Time.deltaTime, 0));
             //Activar la animacion de movimiento
             gameObject.GetComponent<Animator>().SetBool("moving", true);
             gameObject.GetComponent<Animator>().SetBool("arcoV", false);
@@ -89,7 +89,7 @@ public class ControladorTom : MonoBehaviour
             gameObject.GetComponent<Animator>().SetBool("atacando", false);
 
             //Aplicar fuerza arriba
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 500f));
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, 335f));
             idleTime = 0f;
         }
 
